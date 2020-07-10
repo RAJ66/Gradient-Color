@@ -4,7 +4,15 @@ import Header from "./components/Header";
 
 import "./App.css";
 
+const { loadJsonFile } = require("./utils/loadJsonFile");
+
+async function loadGradient() {
+  const tmp = loadJsonFile("gradient.json");
+  console.log(tmp.gradient);
+}
+
 function App() {
+  loadGradient();
   return (
     <div>
       <Header />
