@@ -3,13 +3,17 @@ import Card from "./components/Card";
 import Header from "./components/Header";
 
 import "./App.css";
-import gradient from "../gradient.json";
+//import gradient from "../gradient.json";
 //const { loadJsonFile } = require("./utils/loadJsonFile");
+import { stockData } from "./data";
 
-async function printGradient() {
-  gradient.gradient.map((data) => {
-    console.log(data);
-  });
+function printGradient() {
+  /*
+  stockData.map((data, key) =>{
+    console.log(data+"->"+key)
+  }*/
+  //console.log(stockData);
+  stockData.map((gradient) => console.log(gradient.color1));
 }
 
 function App() {
@@ -19,16 +23,9 @@ function App() {
       <Header />
       <h1>Example</h1>
       <div className="cards">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {stockData.map((gradient) => {
+          return <Card />;
+        })}
       </div>
     </div>
   );
