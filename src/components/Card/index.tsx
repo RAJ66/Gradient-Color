@@ -1,12 +1,12 @@
 import React from "react";
 
 import "./styles.css";
-type Gradient = {
+type Props = {
   color1: string;
   color2: string;
 };
 
-function Card({ color1, color2 }: Gradient) {
+function Card({ color1, color2 }: Props) {
   return (
     <div
       className="card"
