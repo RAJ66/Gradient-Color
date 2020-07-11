@@ -3,16 +3,17 @@ import Card from "./components/Card";
 import Header from "./components/Header";
 
 import "./App.css";
+import gradient from "../gradient.json";
+//const { loadJsonFile } = require("./utils/loadJsonFile");
 
-const { loadJsonFile } = require("./utils/loadJsonFile");
-
-async function loadGradient() {
-  const tmp = loadJsonFile("gradient.json");
-  console.log(tmp.gradient);
+async function printGradient() {
+  gradient.gradient.map((data) => {
+    console.log(data);
+  });
 }
 
 function App() {
-  loadGradient();
+  printGradient();
   return (
     <div>
       <Header />
