@@ -19,6 +19,10 @@ function Card({ color1, color2 }: Props) {
       }}
     >
       <h1>Card</h1>
+      <div className="color">
+        <p>{color1}</p>
+        <p>{color2}</p>
+      </div>
     </div>
   );
 }
