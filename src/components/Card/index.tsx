@@ -1,22 +1,26 @@
 import React from "react";
 
 import "./styles.css";
+type Gradient = {
+  color1: string;
+  color2: string;
+};
 
-const Card: React.FC = () => {
+function Card({ color1, color2 }: Gradient) {
   return (
     <div
       className="card"
       style={{
         background: `linear-gradient(
         90deg,
-        rgba(1, 72, 115, 1) 0%,
-        rgba(160, 234, 207, 1) 100%
+        ${color1} 0%,
+        ${color2} 100%
       )`,
       }}
     >
       <h1>Card</h1>
     </div>
   );
-};
+}
 
 export default Card;

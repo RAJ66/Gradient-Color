@@ -16,6 +16,11 @@ function printGradient() {
   stockData.map((gradient) => console.log(gradient.color1));
 }
 
+type Gradient = {
+  color1: string;
+  color2: string;
+};
+
 function App() {
   printGradient();
   return (
@@ -23,8 +28,10 @@ function App() {
       <Header />
       <h1>Example</h1>
       <div className="cards">
-        {stockData.map((gradient) => {
-          return <Card />;
+        {stockData.map((gradient: Gradient, key) => {
+          return (
+            <Card color1={gradient.color1} color2={gradient.color2} key={key} />
+          );
         })}
       </div>
     </div>
