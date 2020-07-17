@@ -20,8 +20,22 @@ function Card({ color1, color2 }: Props) {
     >
       <h1>Card</h1>
       <div className="color">
-        <p>{color1}</p>
-        <p>{color2}</p>
+        <p
+          onClick={() => {
+            navigator.clipboard.writeText(color1);
+            alert(`Copied ${color1}`);
+          }}
+        >
+          {color1}
+        </p>
+        <p
+          onClick={() => {
+            navigator.clipboard.writeText(color2);
+            alert(`Copied ${color2}`);
+          }}
+        >
+          {color2}
+        </p>
       </div>
     </div>
   );
