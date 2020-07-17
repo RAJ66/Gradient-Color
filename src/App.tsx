@@ -3,6 +3,8 @@ import Card from "./components/Card";
 import Header from "./components/Header";
 
 import "./App.css";
+import "./Reset.css";
+
 //import gradient from "../gradient.json";
 //const { loadJsonFile } = require("./utils/loadJsonFile");
 import { stockData } from "./data";
