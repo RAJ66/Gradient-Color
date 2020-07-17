@@ -1,14 +1,14 @@
-h1 {
-  font-weight: 500;
+.typewriter {
+  background-color: #20232a;
 }
-
 .typewriter h1 {
   overflow: hidden;
   border-right: 2px solid;
   white-space: nowrap;
   margin: 0 auto;
   user-select: none;
-
+  font-weight: 500;
+  color: #ffffff;
   animation: typing 3.6s steps(30, end), blink-caret 1s step-end infinite;
 }
 
