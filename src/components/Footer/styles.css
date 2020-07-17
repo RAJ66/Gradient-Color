@@ -1,0 +1,25 @@
+.footerContainer {
+  background-color: #0a0a0a;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: stretch;
+  height: 200px;
+  color: white;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.social {
+  padding: 10px;
+}

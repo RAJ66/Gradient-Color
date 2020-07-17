@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./components/Card";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 import "./App.css";
 import "./Reset.css";
@@ -26,7 +27,7 @@ type Gradient = {
 function App() {
   printGradient();
   return (
-    <div>
+    <div className="container">
       <Header />
       <h1>Example</h1>
       <div className="cards">
@@ -36,6 +37,7 @@ function App() {
           );
         })}
       </div>
+      <Footer />
     </div>
   );
 }
