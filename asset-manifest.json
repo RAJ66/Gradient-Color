@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Gradient-Color/static/css/main.f41f38b3.chunk.css",
+    "main.js": "/Gradient-Color/static/js/main.b1754071.chunk.js",
+    "main.js.map": "/Gradient-Color/static/js/main.b1754071.chunk.js.map",
+    "runtime-main.js": "/Gradient-Color/static/js/runtime-main.ead96fab.js",
+    "runtime-main.js.map": "/Gradient-Color/static/js/runtime-main.ead96fab.js.map",
+    "static/js/2.e7ecab21.chunk.js": "/Gradient-Color/static/js/2.e7ecab21.chunk.js",
+    "static/js/2.e7ecab21.chunk.js.map": "/Gradient-Color/static/js/2.e7ecab21.chunk.js.map",
+    "index.html": "/Gradient-Color/index.html",
+    "precache-manifest.c804aa09dc0757bdaddca9fd8fed10f7.js": "/Gradient-Color/precache-manifest.c804aa09dc0757bdaddca9fd8fed10f7.js",
+    "service-worker.js": "/Gradient-Color/service-worker.js",
+    "static/css/main.f41f38b3.chunk.css.map": "/Gradient-Color/static/css/main.f41f38b3.chunk.css.map",
+    "static/js/2.e7ecab21.chunk.js.LICENSE.txt": "/Gradient-Color/static/js/2.e7ecab21.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ead96fab.js",
+    "static/js/2.e7ecab21.chunk.js",
+    "static/css/main.f41f38b3.chunk.css",
+    "static/js/main.b1754071.chunk.js"
+  ]
+}
