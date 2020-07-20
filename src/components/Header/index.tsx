@@ -5,7 +5,7 @@ import "./styles.css";
 const Header: React.FC = () => {
   return (
     <div className="typewriter">
-      <h1> Header </h1>
+      <h1> Gradient Color </h1>
     </div>
   );
 };
