@@ -12,8 +12,12 @@ const Footer: React.FC = () => {
         <img src={myLogo} alt="Logo" />
       </div>
       <div className="socials">
-        <img className="social" src={github} alt="GitHub" />
-        <img className="social" src={linkedin} alt="Linkedin" />
+        <a href="https://github.com/RAJ66">
+          <img className="social" src={github} alt="GitHub" />
+        </a>
+        <a href="https://www.linkedin.com/in/vitorbarbosa66/">
+          <img className="social" src={linkedin} alt="Linkedin" />
+        </a>
       </div>
     </div>
   );
