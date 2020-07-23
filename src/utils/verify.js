@@ -8,9 +8,10 @@ function repeatedColorVerify() {
         stockData[i].color2 === stockData[j].color2
       ) {
         console.log(
+          "\x1b[31m",
           `Repeated Color ${stockData[i].color1} ${stockData[i].color2} with ${stockData[j].color1} ${stockData[j].color2}.`
         );
-        console.log(`In positions ${i} and ${j}`);
+        console.log("\x1b[31m", `In positions ${i} and ${j}`);
       }
     }
   }
