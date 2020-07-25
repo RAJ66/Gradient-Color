@@ -3,5 +3,8 @@
     "activityBar.background": "#00361A",
     "titleBar.activeBackground": "#014B24",
     "titleBar.activeForeground": "#E8FFF3"
-  }
+  },
+  "cSpell.ignoreWords": [
+    "gradientcolor"
+  ]
 }

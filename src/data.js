@@ -67,4 +67,8 @@ export const stockData = [
     color1: "#fc00ff",
     color2: "#00dbde",
   },
+  {
+    color1: "#BA8B02",
+    color2: "#181818",
+  },
 ];
